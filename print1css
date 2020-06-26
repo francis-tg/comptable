@@ -1,0 +1,9 @@
+@page {
+    size: A4;
+    margin: auto;
+}
+
+#btn {
+    display: none;
+    visibility: hidden;
+}
