@@ -1,0 +1,38 @@
+.comment {
+    height: 402px;
+    overflow-y: scroll;
+}
+
+
+/* width */
+
+.comment::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+/* Track */
+
+.comment::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.comment::-webkit-scrollbar-thumb {
+    background: #44f;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.comment::-webkit-scrollbar-thumb:hover {
+    background: #094FC2;
+}
+
+#msg {
+    max-height: 300px;
+}
